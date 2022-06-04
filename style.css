@@ -1,4 +1,100 @@
-h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: aqua;
+
+/* text box model 
+
+
+div{
+    border: 2px solid red;
+}*/
+body {
+    font: 400 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+   
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+h2{
+   
+    text-align: center;
+    font-size: 2rem;
+    margin:0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+a{
+     font-family:'Tai Heritage Pro', serif;
+    color: rgb(120, 101, 101);
+    font-size: 2rem;
+   
+   
+}
+#main{
+    border-bottom:  2px solid #2c3e50;
+}
+#intro{
+    
+    border-bottom: 2px solid #2c3e50;
+}
+.content{
+    position: relative;
+}
+img{
+    margin-left:5%;
+    margin-top: 2%;
+    max-width: 20%;
+    border: 2px solid ;
+    border-radius: 20px 0 20px 0;
+
+
+   
+}
+p.para
+    {
+        position: absolute;
+        right: 5px;
+      top:0;
+       padding-left: 40%;
+       padding-right: 10%;
+    }
+
+
+
+body{
+   /* background-color: rgb(25, 25, 112);*/
+   background-image: url(ok.webp);
+   background-repeat: repeat-x;
+}
+#out{
+    margin-top :20px;
+    position: relative;
+}
+
+div.paraconnect{
+
+    position :absolute;
+   padding-top: 5px;
+    border: 2px dashed #bdc3c7 ;
+}
+ ul li {
+
+    display: inline;
+}
+div.end{
+    margin-top: 5%;
+    text-align: right;
+}
+/*h2{
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cornflowerblue;
+    border: 2px solid rgb(25, 86, 135);
+    border-radius :7px;
+    padding: 5px;
+} */
